@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <title>@jmsmrvn1 - 71230971 - Personal Web Page</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h4>Welcome to My Personal Web Page</h4>
+    </header>
+    <div style="display: flex; flex-direction: row">
+        <section id="foto">
+                
+            <img src="c:\Users\ASUS\Downloads\WhatsApp Image 2023-10-30 at 23.34.56_c84b6d78.jpg" alt="Foto Anda" height="520" width="420">
+        </section>
+        <div>
+            <section id="tentang-saya">
+                
+                <h1>James Marvin Santoso</h1>
+                <p>Akun Instagram: <a href="https://instagram.com/jmsmrvn1?igshid=MTNiYzNiMzkwZA==" target="_blank">@jmsmrvn1</a></p>
+                <p>Kota, Provinsi, Negara: Yogyakarta, Jawa, Indonesia</p>
+            </section>
+            <section id="keterampilan">
+                
+                Skillset Programming: 
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                </ol>
+            </section>
+
+        </div>
+
+    </div>
+    
+    <section id="colorButton">
+        <button onclick="changeColor()">Ganti Warna</button>
+      </section>
+
+      <footer>
+        Thank You for Visiting My Web Page
+
+    
+    </footer>
+    <script>
+        function changeColor() {
+          var colors = ['#ff0000', '#0000ff', '#00ff00', '#ffffff'];
+          var randomColor = colors[Math.floor(Math.random() * colors.length)];
+          document.body.style.backgroundColor = randomColor;
+        }
+      </script>
